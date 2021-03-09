@@ -1,24 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { Box, Container, Typography } from "@material-ui/core";
+import AuthContext from "./context/auth-context/auth-context";
+import { useState } from "react";
+import NavBar from "./components/NavBar/NavBar";
 
 function App() {
+  const [login, setLogin] = useState(false);
+  const loginHandler = () => {
+    setLogin(!login);
+  };
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    <>
+      <AuthContext.Provider value={{ isAuth: login, login: loginHandler }}>
+        <NavBar />
+        <Box
+          marginTop={"70px"}
+          display="flex"
+          alignItems="center"
+          justifyContent="center"
+          minHeight="calc(100vh - 70px)"
+          width="100%"
+          textAlign="center"
         >
-          Learn React
-        </a>
-      </header>
-    </div>
+          <Container>
+            <Typography variant="h1" component="h1">
+              Context API
+            </Typography>
+            <Typography variant="h4">Check login button</Typography>
+          </Container>
+        </Box>
+      </AuthContext.Provider>
+    </>
   );
 }
 

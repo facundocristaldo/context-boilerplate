@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/context-boilerplate/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/context-boilerplate/static/js/main.22e3c2a5.chunk.js",
-    "main.js.map": "/context-boilerplate/static/js/main.22e3c2a5.chunk.js.map",
+    "main.js": "/context-boilerplate/static/js/main.1e1824df.chunk.js",
+    "main.js.map": "/context-boilerplate/static/js/main.1e1824df.chunk.js.map",
     "runtime-main.js": "/context-boilerplate/static/js/runtime-main.4b7ab6a8.js",
     "runtime-main.js.map": "/context-boilerplate/static/js/runtime-main.4b7ab6a8.js.map",
-    "static/js/2.3d8f7567.chunk.js": "/context-boilerplate/static/js/2.3d8f7567.chunk.js",
-    "static/js/2.3d8f7567.chunk.js.map": "/context-boilerplate/static/js/2.3d8f7567.chunk.js.map",
+    "static/js/2.ec31cdb3.chunk.js": "/context-boilerplate/static/js/2.ec31cdb3.chunk.js",
+    "static/js/2.ec31cdb3.chunk.js.map": "/context-boilerplate/static/js/2.ec31cdb3.chunk.js.map",
     "static/js/3.d5e66021.chunk.js": "/context-boilerplate/static/js/3.d5e66021.chunk.js",
     "static/js/3.d5e66021.chunk.js.map": "/context-boilerplate/static/js/3.d5e66021.chunk.js.map",
     "index.html": "/context-boilerplate/index.html",
     "static/css/main.9d5b29c0.chunk.css.map": "/context-boilerplate/static/css/main.9d5b29c0.chunk.css.map",
-    "static/js/2.3d8f7567.chunk.js.LICENSE.txt": "/context-boilerplate/static/js/2.3d8f7567.chunk.js.LICENSE.txt"
+    "static/js/2.ec31cdb3.chunk.js.LICENSE.txt": "/context-boilerplate/static/js/2.ec31cdb3.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.4b7ab6a8.js",
-    "static/js/2.3d8f7567.chunk.js",
+    "static/js/2.ec31cdb3.chunk.js",
     "static/css/main.9d5b29c0.chunk.css",
-    "static/js/main.22e3c2a5.chunk.js"
+    "static/js/main.1e1824df.chunk.js"
   ]
 }

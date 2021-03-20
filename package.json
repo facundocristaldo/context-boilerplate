@@ -2,7 +2,7 @@
   "name": "context-boilerplate",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://fcristaldo-altimetrik.github.io/context-boilerplate",
+  "homepage":"https://facundocristaldo.github.io/context-boilerplate",
   "dependencies": {
     "@material-ui/core": "^4.11.3",
     "@material-ui/icons": "^4.11.2",
